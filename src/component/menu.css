@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    margin-top: 60px;
+    width: 1200px;
+  
+}
+.title{
+    font-size: 50px;
+text-align: center;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30% 40px 30%;
+}
+.nav-component{
+   border-radius:3px ;
+    padding: 10px;
+    transition: 0.1s;
+    border: 3px solid white; 
+   
+}
+.nav-component:hover{
+    border: 3px rgb(0, 157, 255) solid;
+}
+.boxs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    width: 100%;
+    height: 200px;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+ margin-top: 40px;
+    height: 100%;
+    width: 50%;
+box-sizing: border-box;
+}
+.image{
+    border: gold 4px solid;
+    height: 100%;
+    width: 40%;
+}
+.text{
+    padding-left: 30px;
+    height: 100%;
+width:60% ;
+padding-top: 10px;
+padding-right: 30px;
+}
+.title-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: gray 1px solid;
+    padding-bottom: 10px;
+}
+.title-box{
+    font-weight: bold;
+   
+}
+.price{
+    color: gold;
+}
+.txt{
+    color: gray;
+    margin-top: 20px;
+        font-size: 15px;
+    font-weight: bold;
+}
+.all{
+        border: 3px rgb(0, 157, 255) solid;
+}
+.selected {
+    border: 3px rgb(0, 157, 255) solid;
+
+}
